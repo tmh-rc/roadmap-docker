@@ -94,7 +94,7 @@ phpinfo();
 - Run apache-image as container with port `8000`
 - Run mysql-image as container with port `3307`
 - Open browser `http://localhost:8000`
-- Must be shown [Todo App](#todo-app)
+- Must be shown [Todo App](#todo-app) until stop container
 
 ### Todo App
  ![screencapture-scm-ojt-github-io-todo-2023-02-28-11_26_12 (2)](https://user-images.githubusercontent.com/120365007/221758220-b835d565-462f-4947-b2eb-c9bafef67608.png)
