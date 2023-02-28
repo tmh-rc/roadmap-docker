@@ -1,12 +1,14 @@
 # Docker Roadmap
 
-## Requirements
+## Prerequisites
 
-- Need to know linux
-- Unix basic command line
+- Operating systems
+- Basic knowlodge of linux
+- Basic knowlodge of command line interface(CLI)
 - Nano Editor
+- YAML
 
-## Docker
+## Docker Roadmap
 
   - Images
   - Container
@@ -72,7 +74,8 @@ phpinfo();
 
 ### Assignment 4
 
-- [Assignment 3](#assignment-3) to show data until stop container
+- Do as [Assignment 3](#assignment-3) include `docker volume`
+- Must change displaying screen while update the code in `index.php` without stopping the container
 
 ### Assignment 5
 
