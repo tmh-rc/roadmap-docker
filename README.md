@@ -1,12 +1,12 @@
 # Docker Roadmap
 
-- Unix Command (eg. Linux, Mac)
+## Requirements
 
-  - [Essential Command](https://github.com/thetminnhtun/web-development-note/blob/master/linux_essential_command.md)
-  - Nano
-  - Vim
+- Need to know linux
+- Unix basic command line
+- Nano Editor
 
-- [Docker](https://www.docker.com/)
+## Docker
 
   - Images
   - Container
