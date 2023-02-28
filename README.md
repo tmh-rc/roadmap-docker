@@ -26,6 +26,7 @@
 - [Assignment 3](#assignment-3)
 - [Assignment 4](#assignment-4)
 - [Assignment 5](#assignment-5)
+- [Assignment 6](#assignment-6)
 
 ### Assignment 1
 
@@ -56,10 +57,10 @@ phpinfo();
 
 ### Assignment 3
 
-- Create `Dockerfile` file
+- Create `Dockerfile` files
 - In `Dockerfile`
   - Download `ubuntu` image
-    - Install `apache` and setup
+    - Install `nginx` and setup
     - Install `PHP` and setup 
       - Install requirement `php-ext` to connect mysql
   - Download `mysql` image 
@@ -67,7 +68,7 @@ phpinfo();
   - Create table & column
   - Insert data
   - Show data like [Todo App](#todo-app)
-- Run apache-image as container with port `8000`
+- Run nginx-image as container with port `8000`
 - Run mysql-image as container with port `3307`
 - Open browser `http://localhost:8000`
 - Must be shown [Todo App](#todo-app)
@@ -78,26 +79,18 @@ phpinfo();
 - Must change displaying screen while update the code in `index.php` without stopping the container
 
 ### Assignment 5
+ 
+- Do as [Assignment 4](#assignment-4) use a `Docker Compose` file
 
-- Create `Dockerfile` file
-- In Dockerfile
-  - Download `nginx` image and setup
-  - Download `php` image
-    - Install `composer`
-    - Install requirement `php-ext` to connect mysql
- - Download `mysql` image
-- Create `Docker Compose` file
-  - Setup above `Dockerfile` files
+### Assignment 6
+
 - Create a `laravel-docker` project
   - Setup `Env` file
   - Create table & column
   - Run ``php artisan migrate``
   - Insert data
   - Show data like [Todo App](#todo-app)
-- Run apache-image as container with port `8000`
-- Run mysql-image as container with port `3307`
-- Open browser `http://localhost:8000`
-- Must be shown [Todo App](#todo-app) until stop container
+- Do as [Assignment 5](#assignment-5)
 
 ### Todo App
  ![screencapture-scm-ojt-github-io-todo-2023-02-28-11_26_12 (2)](https://user-images.githubusercontent.com/120365007/221758220-b835d565-462f-4947-b2eb-c9bafef67608.png)
