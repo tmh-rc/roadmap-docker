@@ -46,19 +46,29 @@ phpinfo();
 - Create `Dockerfile` file
 - In `Dockerfile`
   - Download `ubuntu` image
-  - Install apache and setup
-  - Install PHP
+  - Install `apache` and setup
+  - Install `PHP`
 - Run image as container with port `8000`
 - Open browser `http://localhost:8000`
 - PHP information must be shown
 
 ### Assignment 3
 
-- Use Dockerfile
-- Download ubuntu docker image
-- Download apache & php from ubuntu
-- Download mysql
-- To show insert list 
+- Create `Dockerfile` file
+- In `Dockerfile`
+  - Download `ubuntu` image
+    - Install `apache` and setup
+    - Install `PHP` and setup 
+      - Install requirement `php-ext` to connect mysql
+  - Download `mysql` image 
+- Create `index.php` file
+  - Create table & column
+  - Insert data
+  - Show data like [Todo App](#todo-app)
+- Run apache-image as container with port `8000`
+- Run mysql-image as container with port `3307`
+- Open browser `http://localhost:8000`
+- Must be shown [Todo App](#todo-app)
 
 ### Assignment 4
 
@@ -66,10 +76,25 @@ phpinfo();
 
 ### Assignment 5
 
-- Use Docker Compose
-- Download nigix, php & mysql
-- Create Laravel project
-- To show insert list until stop container
+- Create `Dockerfile` file
+- In Dockerfile
+ - Download `nginx` image and setup
+ - Download `php` image
+    - Install `composer`
+    - Install requirement `php-ext` to connect mysql
+ - Download `mysql` image
+- Create `Docker Compose` file
+  - Setup above `Dockerfile` files
+- Create a `laravel-docker` project
+  - Setup `Env` file
+  - Create table & column
+  - Run ``php artisan migrate``
+  - Insert data
+  - Show data like [Todo App](#todo-app)
+- Run apache-image as container with port `8000`
+- Run mysql-image as container with port `3307`
+- Open browser `http://localhost:8000`
+- Must be shown [Todo App](#todo-app)
 
 ### Todo App
- ![Screenshot 2023-02-28 101839](https://user-images.githubusercontent.com/120365007/221752889-6668f8bc-6f7f-415f-aeee-9982284a5251.png)
+ ![screencapture-scm-ojt-github-io-todo-2023-02-28-11_26_12 (2)](https://user-images.githubusercontent.com/120365007/221758220-b835d565-462f-4947-b2eb-c9bafef67608.png)
