@@ -33,7 +33,7 @@
 - Download ubuntu docker image
 - Run downloaded image as container
 - Enter bash shell into running container
-- Create a `test.txt`
+- Create a `test.txt` in the container
 - Open a `test.txt` file with nano editor
 - Write `Hello World!` and Save it.
 
@@ -51,25 +51,29 @@ phpinfo();
   - Download `ubuntu` image
   - Install `apache` and setup
   - Install `PHP`
+  - Add index.php into apache document root
 - Run image as container with port `8000`
 - Open browser `http://localhost:8000`
 - PHP information must be shown 
 
 ### Assignment 3
 
-- Create `Dockerfile` files
+- Create 2 folders named `app` and `db`
+- In `app` folder, create a `Dockerfile` file
 - In `Dockerfile`
-  - Download `ubuntu` image
+    - Download `ubuntu` image
     - Install `nginx` and setup
     - Install `PHP` and setup 
-      - Install requirement `php-ext` to connect mysql
-  - Download `mysql` image 
+    - Install requirement `php-ext` to connect mysql
 - Create `index.php` file
-  - Create table & column
-  - Insert data
-  - Show data like [Todo App](#todo-app)
-- Run nginx-image as container with port `8000`
-- Run mysql-image as container with port `3307`
+  - Create table & column for [Todo App](#todo-app) if does not exists
+  - Write [Todo App](#todo-app)
+- In `db` folder, create a `Dockerfile` file
+- In `Dockerfile`
+  - Download `mysql` image
+  - Set database name, username, password
+- Run app image as container with port `8000`
+- Run db image as container with port `3307`
 - Open browser `http://localhost:8000`
 - Must be shown [Todo App](#todo-app)
 
@@ -80,17 +84,11 @@ phpinfo();
 
 ### Assignment 5
  
-- Do as [Assignment 4](#assignment-4) use a `Docker Compose` file
+- Do as [Assignment 4](#assignment-4) use a `docker-compose.yml` file
 
 ### Assignment 6
 
-- Create a `laravel-docker` project
-  - Setup `Env` file
-  - Create table & column
-  - Run ``php artisan migrate``
-  - Insert data
-  - Show data like [Todo App](#todo-app)
-- Do as [Assignment 5](#assignment-5)
+- Create a [Todo App](#todo-app) using Laravel using Docker as [Assignment 5](#assignment-5)
 
 ### Todo App
  ![screencapture-scm-ojt-github-io-todo-2023-02-28-11_26_12 (2)](https://user-images.githubusercontent.com/120365007/221758220-b835d565-462f-4947-b2eb-c9bafef67608.png)
