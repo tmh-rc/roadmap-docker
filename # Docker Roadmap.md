@@ -48,8 +48,7 @@
 - Download ubuntu docker image
 - Download apache & php from ubuntu
 - Download mysql
-- To show insert list \
-  (Screenshot 2023-02-28 101839.png)
+- To show insert list 
 
 ### Assignment 4
 
@@ -61,3 +60,5 @@
 - Download nigix, php & mysql
 - Create Laravel project
 - To show insert list until stop container
+
+ ![Screenshot 2023-02-28 101839](https://user-images.githubusercontent.com/120365007/221752889-6668f8bc-6f7f-415f-aeee-9982284a5251.png)
