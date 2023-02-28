@@ -91,4 +91,5 @@ phpinfo();
 - Create a [Todo App](#todo-app) using Laravel using Docker as [Assignment 5](#assignment-5)
 
 ### Todo App
- ![screencapture-scm-ojt-github-io-todo-2023-02-28-11_26_12 (2)](https://user-images.githubusercontent.com/120365007/221758220-b835d565-462f-4947-b2eb-c9bafef67608.png)
+![screencapture-scm-ojt-github-io-todo-2023-02-28-11_26_12 (3)](https://user-images.githubusercontent.com/120365007/221790363-8e7c75cd-a4b6-44c2-a8aa-28afbdb62dd4.png)
+
