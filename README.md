@@ -28,7 +28,7 @@
 ### Assignment 1
 
 - Download ubuntu docker image
-- Run download image as container
+- Run downloaded image as container
 - Enter bash shell into running container
 - Create a `test.txt`
 - Open a `test.txt` file with nano editor
@@ -36,11 +36,21 @@
 
 ### Assignment 2
 
-- Use Dockerfile
-- Download ubuntu docker image
-- Download apache from ubuntu
-- Download php from ubuntu
-- To show php info
+- Create `index.php` file and write below code
+```php
+<?php
+
+phpinfo();
+
+```
+- Create `Dockerfile` file
+- In `Dockerfile`
+  - Download `ubuntu` image
+  - Install apache and setup
+  - Install PHP
+- Run image as container with port `8000`
+- Open browser `http://localhost:8000`
+- PHP information must be shown
 
 ### Assignment 3
 
@@ -61,4 +71,5 @@
 - Create Laravel project
 - To show insert list until stop container
 
+### Todo App
  ![Screenshot 2023-02-28 101839](https://user-images.githubusercontent.com/120365007/221752889-6668f8bc-6f7f-415f-aeee-9982284a5251.png)
