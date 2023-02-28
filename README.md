@@ -78,8 +78,8 @@ phpinfo();
 
 - Create `Dockerfile` file
 - In Dockerfile
- - Download `nginx` image and setup
- - Download `php` image
+  - Download `nginx` image and setup
+  - Download `php` image
     - Install `composer`
     - Install requirement `php-ext` to connect mysql
  - Download `mysql` image
