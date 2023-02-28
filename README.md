@@ -2,9 +2,9 @@
 
 ## Prerequisites
 
-- Operating systems
-- Basic knowlodge of linux
-- Basic knowlodge of command line interface(CLI)
+- Basic knowledge of Operating Systems
+- Basic knowledge of Linux
+- Basic knowledge of Command Line Interface(CLI)
 - Nano Editor
 - YAML
 
