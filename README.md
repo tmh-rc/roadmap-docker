@@ -50,7 +50,7 @@ phpinfo();
   - Install `PHP`
 - Run image as container with port `8000`
 - Open browser `http://localhost:8000`
-- PHP information must be shown
+- PHP information must be shown 
 
 ### Assignment 3
 
