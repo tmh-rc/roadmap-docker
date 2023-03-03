@@ -72,8 +72,9 @@ phpinfo();
 - In `Dockerfile`
   - Download `mysql` image
   - Set database name, username, password
+- Create a network and connect to `app` & `db`
 - Run app image as container with port `8000`
-- Run db image as container with port `3307`
+- Run db image as container with port `3306`
 - Open browser `http://localhost:8000`
 - Must be shown [Todo App](#todo-app)
 
